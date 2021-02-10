@@ -22,6 +22,25 @@
             list-style-type: circle;
             display: inline;
         }
+        #myBtn {
+            display: none; /* Hidden by default */
+            position: fixed; /* Fixed/sticky position */
+            bottom: 20px; /* Place the button at the bottom of the page */
+            right: 30px; /* Place the button 30px from the right */
+            z-index: 99; /* Make sure it does not overlap */
+            border: none; /* Remove borders */
+            outline: none; /* Remove outline */
+            background-color: #bd5d38; /* Set a background color */
+            color: white; /* Text color */
+            cursor: pointer; /* Add a mouse pointer on hover */
+            padding: 15px; /* Some padding */
+            border-radius: 10px; /* Rounded corners */
+            font-size: 18px; /* Increase font size */
+            }
+
+            #myBtn:hover {
+            background-color: #555; /* Add a dark-grey background on hover */
+            }
         </style>
     </head>
     <body id="page-top">
@@ -36,6 +55,7 @@
                 <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Resume</a></li>
@@ -98,6 +118,14 @@
                             <h3 class="mb-0">Field Service Engineer</h3>
                             <div class="subheading mb-3">CTC Global Sdn Bhd</div>
                             <p>Maintaining and installing computers for various banks such as Bank Negara Malaysia, Public Bank Berhad, KWSP and OCBC Bank. Managing the data migration and windows migration.</p>
+                        
+                            <p class="mb-0"><b>Role:</b></p>
+                            <ul>
+                                <li class="role-item">Migration (Upgrading PC System and Hardware) responsible for migrating operating system to latest operating system and migrate old data to new system. Change or upgrade the hardware.</li>
+                                <li class="role-item">Refreshment responsible to change the current system and hardware to latest operating system and hardware. Also responsible to migrate old data to new system.</li>
+                                <li class="role-item">Preventive maintenance responsible for updating all software includes anti-virus to ensure the system is up to date and secure. </li>
+                            </ul>
+                        
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">July 2019 - September 2020</span></div>
                     </div>
@@ -106,13 +134,19 @@
                             <h3 class="mb-0">IT Engineer</h3>
                             <div class="subheading mb-3">Smart Tech Tank Sdn Bhd</div>
                             <p>Managing company projects such as creating documentation, timeline and more. Involving in multiple tendering process.</p>
+
+                            <p class="mb-0"><b>Role:</b></p>
+                            <ul>
+                                <li class="role-item">Assistant project manager responsible for project management of agile system developement.</li>
+                                <li class="role-item">Tendering responsible for preparing the documentation and requirement. </li>
+                            </ul>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">December 2018 - May 2019</span></div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Technician Intern</h3>
-                            <div class="subheading mb-3">Sigma Elevator</div>
+                            <div class="subheading mb-3">Sigma Elevator (M) Sdn Bhd</div>
                             <p>Maintaining and fixing machine such as elevetor,escalator and travelator. </p>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">2017</span></div>
@@ -120,6 +154,67 @@
                 </div>
             </section>
             <hr class="m-0" />
+
+            <!-- Projects-->
+            <section class="resume-section" id="projects">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Projects</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">SISTEM SMART INISIATIF PEDULI RAKYAT</h3>
+                            <div class="subheading mb-3">Smart Tech Tank Sdn Bhd</div>
+                            <p>
+                                SSIPR stands for Sistem Smart Inisiatif Peduli Rakyat, which is developed to manage the user data of People's Initiative (IPR) programs in one place or one stop. The IPR introduced by the Selangor State Government is aimed at helping the community, especially the low-income group, meet the demands and challenges of today's increasingly challenging life.
+                                The SSIPR was created to enable the people to submit their applications online without having to present themselves to the relevant offices. People can also find out the IPR agenda that is worth applying for and make reviewing your application status easier and more time-consuming.
+                                </p>
+                            
+                            <p class="mb-0"><b>Technology Stack Diagram:</b></p>
+                            <img src="assets/img/ssiprdiagram.jpg" alt=""></img>
+
+                            <p class="mb-0"><b>Project Link:</b></p>
+                            <ul class="fa-ul mb-0">
+                                <li>
+                                    <a href="https://ssipr.selangor.gov.my/">Portal Sistem Smart Inisiatif Peduli Rakyat</a>
+                                </li>
+                                <li>
+                                    <a href="https://ssipr-daftar.selangor.gov.my/login">Sistem Smart Inisiatif Peduli Rakyat</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Public Bank Berhad Windows 10 PC Refreshment and Migration</h3>
+                            <div class="subheading mb-3">CTC Global Sdn Bhd</div>
+                            <p>Installing new PC or upgrading PC for client. The process also includes performing data migration which old data will be migrated to new system using various way since the data are confidential. Installing related software also required in this projects. Other than that, if any error occurs during installation suitable troubleshooting process required.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Bank Negara Malaysia Windows 10 PC Refreshment</h3>
+                            <div class="subheading mb-3">CTC Global Sdn Bhd</div>
+                            <p>Installing new PC for client. The process also includes performing data migration which old data will be migrated to new system using various way since the data are confidential. Installing related software also required in this projects. Other than that, if any error occurs during installation suitable troubleshooting process required.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">OCBC Bank Windows 10 PC Migration</h3>
+                            <div class="subheading mb-3">CTC Global Sdn Bhd</div>
+                            <p>Upgrading PC for client. The process also includes performing data migration which old data will be migrated to new system using various way since the data are confidential. Installing related software also required in this projects. Other than that, if any error occurs during installation suitable troubleshooting process required.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">KWSP Preventive Maintenance</h3>
+                            <div class="subheading mb-3">CTC Global Sdn Bhd</div>
+                            <p>Maintaining client PC for security and maintenance purpose. The process includes updating and upgrading the security software and other software related. Other than that, hardware also will be maintained to avoid mulfunction or system slowing problem.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+
+
             <!-- Education-->
             <section class="resume-section" id="education">
                 <div class="resume-section-content">
@@ -127,7 +222,7 @@
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Universiti Teknologi Mara</h3>
-                            <div class="subheading mb-3">Bachelor of Electronics Engineering</div>
+                            <div class="subheading mb-3">Bachelor Degree (Hons) of Electronics Engineering</div>
                             <div>Major in Computer</div>
                             <p>Passed</p>
                         </div>
@@ -152,6 +247,7 @@
                     <div class="subheading mb-3">Programming Languages & Tools</div>
                     <ul class="list-inline dev-icons">
                         <li class="list-inline-item"><i class="fab fa-html5"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-bootstrap"></i></li>
                         <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
                         <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
                         <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
@@ -185,19 +281,10 @@
                 </div>
             </section>
             <hr class="m-0" />
-            <!-- Interests-->
-            <!-- <section class="resume-section" id="interests">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Interests</h2>
-                    <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
-                    <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>
-                </div>
-            </section> -->
-            <hr class="m-0" />
             <!-- Awards-->
             <section class="resume-section" id="awards">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Resume Download</h2>
+                    <h2 class="mb-5">Resume</h2>
                     <ul class="fa-ul mb-0">
                         <li>
                             <a href="assets/Ahmad Syahmi Azhar Resume.pdf">Download here</a>
@@ -205,6 +292,8 @@
                     </ul>
                 </div>
             </section>
+
+            <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button> 
         </div>
         <!-- Bootstrap core JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -216,17 +305,25 @@
         
         <script src="data.js"></script>
         <script>
-        
-        document.getElementById("nama").innerHTML = skill[0]; 
-        console.log(exp);
-        console.log(exp[0].exp1);
-        // profile.forEach(element => {
-        //     console.log(element.skill);
-        //     // console.log(element.skill);
-        // });
+        //Get the button:
+        mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+        if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        } 
         </script>
-
-
-
     </body>
 </html>
